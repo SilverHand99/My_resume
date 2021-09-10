@@ -1,0 +1,59 @@
+.body_container{
+    width: 70%;
+    height: 980px;
+    display: flex;
+    margin-right: 15%;
+    margin-left: 15%;
+    color: white;
+    justify-content: center;
+}
+body{
+    margin: 0;
+    padding: 0;
+    min-width: 375px;
+    position: relative;
+    overflow-x: hidden;
+    background-image: url("/static/img/fon2.jpg");
+    background-position: top center;
+    background-attachment: fixed;
+    min-height: 812px;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+
+@media (width: 375px) {
+    .body_container{
+        margin-right: 5%;
+        margin-left: 5%;
+        width: 90%;
+    }
+    .text{
+        font-size: 0.7em;
+    }
+}
+
+.profile_photo{
+    height: 290px;
+    width: 218px;
+    background-size: contain;
+    position: absolute;
+    margin-top: 20px;
+    outline: 3px solid #22082B ;
+    border: 5px solid #22082B;
+    background-image: url("/static/img/To_home-work.jpg");
+}
+
+.text_container{
+    background-color:rgba( 84,26,96, 0.5);
+    margin-top: 350px;
+    margin-bottom: 140px;
+    border-radius: 7%;
+    z-index: -1;
+}
+
+.text{
+    text-align: center;
+    color: white;
+    font-family: Algerian;
+}
