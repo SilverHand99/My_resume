@@ -24,12 +24,12 @@ body{
 
 @media (width: 375px) {
     .body_container{
-        margin-right: 5%;
-        margin-left: 5%;
+        margin-right: 3%;
+        margin-left: 3%;
         width: 90%;
     }
     .text{
-        font-size: 0.7em;
+        font-size: 0.5em;
     }
 }
 
