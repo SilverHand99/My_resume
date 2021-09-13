@@ -24,9 +24,9 @@ body{
 
 @media (max-width: 450px) {
     .body_container{
-        margin-right: 3%;
-        margin-left: 3%;
-        width: 90%;
+        margin-right: 4%;
+        margin-left: 4%;
+        width: 92%;
     }
     .text{
         font-size: 0.7em;
