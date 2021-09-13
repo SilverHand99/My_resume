@@ -16,18 +16,18 @@ body{
     background-image: url("/static/img/fon2.jpg");
     background-position: top center;
     background-attachment: fixed;
-    min-height: 1412px;
+    min-height: 980px;
     -webkit-background-size: cover;
     background-size: cover;
 }
 
 
-@media (width: 450px) {
+@media (max-width: 450px) {
     .body_container{
         margin-right: 3%;
         margin-left: 3%;
         width: 90%;
-        height: 1800px;
+        height: 1600px;
     }
     .text{
         font-size: 0.5em;
