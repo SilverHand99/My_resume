@@ -16,7 +16,7 @@ body{
     background-image: url("/static/img/fon2.jpg");
     background-position: top center;
     background-attachment: fixed;
-    min-height: 812px;
+    min-height: 1012px;
     -webkit-background-size: cover;
     background-size: cover;
 }
